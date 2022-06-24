@@ -57,6 +57,10 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            Text(
+              'Above is the no. of times you have clicked',
+              style: Theme.of(context).textTheme.headline6,
+            ),
           ],
         ),
       ),
